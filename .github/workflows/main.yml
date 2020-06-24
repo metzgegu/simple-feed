@@ -23,8 +23,12 @@ jobs:
     - uses: actions/checkout@v2
 
     # Runs a set of commands using the runners shell
-    - name: Frontend unit test
-      run: |
-        yarn install,
-        yarn run test.
+    - name: Setup frontend
+      run: yarn install
       working-directory: ./frontend
+    
+    - name: Frontend unit test
+      run: yarn run test
+      working-directory: ./frontend
+        
+      
