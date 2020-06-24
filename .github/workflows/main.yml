@@ -25,5 +25,7 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Frontend unit test
       run: |
+        cd ..,
         cd frontend,
+        yarn install,
         yarn run test.
