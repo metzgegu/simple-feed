@@ -24,6 +24,6 @@ it will run the server at `http://localhost:8090`
 
 ### Test
 
-Unit tests are available in the frontend with this command
+Unit tests are available in the frontend with running this command
 
 `yarn run test`
