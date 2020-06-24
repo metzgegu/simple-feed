@@ -4,8 +4,7 @@ Simple news feed timeline fetching some data from a Wizbii API
 
 ### Setup project
 
-Simply run this command in the root folder
-This will install dependencies of the backend and the frontend and buil the frontend
+Run this command to setup the project, it will install dependencies of the backend and the frontend and build the frontend
 
 `./setup_project.sh`
 
