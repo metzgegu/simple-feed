@@ -2,6 +2,14 @@
 
 Simple news feed timeline fetching some data from a Wizbii API
 
+The stack is :
+- React
+- Material-UI
+- Webpack
+- Mocha
+- Enzyme
+- Express.js
+
 ### Setup project
 
 Run this command to setup the project, it will install dependencies of the backend and the frontend and build the frontend
