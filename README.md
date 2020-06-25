@@ -9,6 +9,7 @@ The stack is :
 - Mocha
 - Enzyme
 - Express.js
+- GitHub Action
 
 ### Setup project
 
