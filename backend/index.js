@@ -10,9 +10,8 @@ app.use(function(req, res, next) {
   next();
 })
 
-const API_URL = 'https://api.wizbii.com/v1'
-
 app.get('/account/validate', function (req, res) {
+  const API_URL = 'https://api.wizbii.com/v1'
   const CLIENT_ID = 'test'
 
   const formData = {
@@ -60,12 +59,6 @@ app.listen(3000, function () {
   console.log('App listening on port 3000!')
 })
 
-// app.use('/static', express.static(__dirname + '../frontend/dist'))
-//
-// app.get('/',function(req,res){
-//   res.sendFile(path.join(__dirname, '../frontend/dist/index.html'));
-//   res.sendFile(path.join(__dirname, '../frontend/dist/index.js'));
-// });
 app.use(express.static(path.join(__dirname, '../frontend/dist')))
 
 app.get('/', function (req, res) {

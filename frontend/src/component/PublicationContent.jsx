@@ -18,5 +18,5 @@ PublicationContent.propTypes = {
 }
 
 PublicationContent.defaultProps = {
-  feedItem: ''
+  description: ''
 }
